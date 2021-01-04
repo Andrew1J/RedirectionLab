@@ -65,7 +65,7 @@ public class PigLatin {
             return s;
         }
         String res = "";
-        if(!Character.isLetter(s.charAt(s.length()-1))){
+        if(!Character.isLetter(s.charAt(s.length()-1))&&!Character.isDigit(s.charAt(s.length()-1))){
             res = pigLatin(s.substring(0,s.length()-1));
         } else {
             res = pigLatin(s);
