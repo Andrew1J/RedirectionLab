@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class PigLatin {
     public static void main(String[] args){
-        System.out.println(pigLatin("the"));
+        /*System.out.println(pigLatin("the"));
         System.out.println(pigLatin("check"));
         System.out.println(pigLatin("skee"));
         System.out.println(pigLatin("emu"));
@@ -15,8 +15,8 @@ public class PigLatin {
         System.out.println(pigLatinBest("the."));
         System.out.println(pigLatinBest("cat!"));
         System.out.println(pigLatinBest("amazing?"));
-        System.out.println(pigLatinBest("apple%"));
-        /*Scanner s = new Scanner(System.in);
+        System.out.println(pigLatinBest("apple%"));*/
+        Scanner s = new Scanner(System.in);
         while(s.hasNextLine()){
             Scanner words = new Scanner(s.nextLine());
             while(words.hasNext()){
@@ -26,7 +26,7 @@ public class PigLatin {
                 }
             }
             System.out.println();
-        }*/
+        }
     }
 
     public static String pigLatinSimple(String s){

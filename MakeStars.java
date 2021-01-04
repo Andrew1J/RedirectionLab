@@ -10,7 +10,9 @@ public class MakeStars {
                 for(int i=0;i<word.length();i++){
                     System.out.print("*");
                 }
-                System.out.print(" ");
+                if(line.hasNext()){
+                    System.out.print(" ");
+                }
             }
             System.out.println();
         }
